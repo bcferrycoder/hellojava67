@@ -7,7 +7,7 @@ version and Java vendor.
 ### Maven
 
 Make sure you have [Maven](http://maven.apache.org/ "Maven") installed.
-Then, *cd* into the root directory and execute:
+Then, cd into the root directory and execute:
 
 	mvn clean package
 
