@@ -1,0 +1,7 @@
+name: hellojava67
+
+framework:
+  type: java_web
+  runtime: java
+
+mem: 512M
