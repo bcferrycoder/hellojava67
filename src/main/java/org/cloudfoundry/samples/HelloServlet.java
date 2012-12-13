@@ -19,7 +19,7 @@ public class HelloServlet extends HttpServlet {
 		writer.println("Hello from " + System.getenv("VCAP_APP_HOST") + ":" + System.getenv("VCAP_APP_PORT"));
 		writer.println(" Java Version: " + System.getProperty("java.version")+ " from "+System.getProperty("java.vendor"));
 		writer.println("");
-		writer.println(" (note: vendor is incorrect for openjdk: this is an openjdk issue");
+		writer.println(" (note: vendor is incorrect for openjdk: this is an openjdk issue)");
 		
 		writer.close();
 	}
